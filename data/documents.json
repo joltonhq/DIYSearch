@@ -1,0 +1,62 @@
+[
+  {
+    "id": "doc-001",
+    "title": "Build a local search engine",
+    "url": "https://example.com/local-search",
+    "content": "A local search engine lets you search your own documents. This guide combines Python, FastAPI, and BM25 to rank matching pages. Load a JSON dataset into memory, tokenize each document, and expose a search API for a browser interface."
+  },
+  {
+    "id": "doc-002",
+    "title": "Understanding BM25 ranking",
+    "url": "https://example.com/bm25",
+    "content": "BM25 is a lexical relevance ranking algorithm. It uses term frequency, inverse document frequency, and document length normalization. BM25 matches words rather than semantic embeddings. A rare matching word can contribute more than a common word."
+  },
+  {
+    "id": "doc-003",
+    "title": "FastAPI application fundamentals",
+    "url": "https://example.com/fastapi",
+    "content": "FastAPI is a Python framework for building HTTP APIs. Declare request parameters, validate input, and return structured JSON responses. Use the application lifespan to load shared resources before accepting requests. Uvicorn runs the application locally."
+  },
+  {
+    "id": "doc-004",
+    "title": "Safe JavaScript highlighting",
+    "url": "https://example.com/highlighting",
+    "content": "Highlight search matches with text nodes and mark elements. Never insert untrusted document content using innerHTML. Use character ranges produced by the same tokenizer as the search index. Unicode code points differ from JavaScript UTF-16 code units."
+  },
+  {
+    "id": "doc-005",
+    "title": "Prepare a JSON document dataset",
+    "url": "https://example.com/dataset",
+    "content": "A search dataset needs stable document identifiers, descriptive titles, valid URLs, and useful content. Validate every record before ingestion. Reject duplicate identifiers and malformed data. Restart the application after replacing the local JSON dataset."
+  },
+  {
+    "id": "doc-006",
+    "title": "Responsive interfaces with Tailwind CSS",
+    "url": "https://example.com/tailwind",
+    "content": "Tailwind CSS provides utility classes for responsive layouts, spacing, typography, and color. Build a search interface with a clear input, visible focus states, readable result cards, and a layout that adapts to mobile and desktop screens."
+  },
+  {
+    "id": "doc-007",
+    "title": "Search interface error states",
+    "url": "https://example.com/search-errors",
+    "content": "A useful search interface explains loading, empty queries, no matches, and network failures. Cancel stale requests when a user starts another search. Keep the current query visible and provide a clear way to try again after an error."
+  },
+  {
+    "id": "doc-008",
+    "title": "Fix a dripping kitchen tap",
+    "url": "https://example.com/kitchen-tap",
+    "content": "Before repairing a dripping kitchen tap, turn off the water supply. Check the washer or cartridge for wear. Keep small parts organized during disassembly. Use the correct replacement parts and check for leaks after restoring the water supply."
+  },
+  {
+    "id": "doc-009",
+    "title": "Plan a home vegetable garden",
+    "url": "https://example.com/vegetable-garden",
+    "content": "Choose a sunny location for a home vegetable garden. Improve soil with compost and plan convenient access to water. Grow vegetables suited to the season and local climate. Mulch garden beds to retain moisture and reduce weeds."
+  },
+  {
+    "id": "doc-010",
+    "title": "Unicode tokenization basics",
+    "url": "https://example.com/unicode",
+    "content": "Tokenization splits text into searchable units. Unicode-aware rules support words such as café and numbers such as 2026. Case folding improves case-insensitive matching. Apply identical tokenization rules to documents, queries, and highlighted matches."
+  }
+]
